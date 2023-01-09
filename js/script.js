@@ -18,6 +18,8 @@ if (navigator.serviceWorker) {
  */
 const n1 = parseInt(document.getElementById("num_1").value)
 const n2 = parseInt(document.getElementById("num_2").value)
+let lcm = 0
+
 if (n1 > n2) {
   let bigger_num = n1
   let smaller_num = n2
