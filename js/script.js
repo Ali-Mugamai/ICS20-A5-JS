@@ -38,5 +38,5 @@ if (n1 > n2) {
 function calculate() {
   // output
   document.getElementById("answer").innerHTML =
-    "<p> the lowest common multiple is: </p>" + lcm +
+    "<p> the lowest common multiple is: </p>" + lcm
 }
