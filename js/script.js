@@ -30,7 +30,7 @@ function calculate() {
     let smaller_num = n1
   } while (bigger_num % smaller_num !== 0) {
       bigger_num = bigger_num + bigger_num
-      lcm = lcm + bigger_num
+      lcm = bigger_num
     }
   
   document.getElementById("answer").innerHTML =
