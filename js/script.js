@@ -32,7 +32,7 @@ function calculate() {
     smaller_num = n1
   }
   while (bigger_num % smaller_num !== 0) {
-    bigger_num = bigger_num + bigger_num
+    bigger_num = bigger_num + n1
     lcm = bigger_num
   }
 
