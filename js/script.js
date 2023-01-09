@@ -22,18 +22,18 @@ function calculate() {
   let bigger_num = 0
   let smaller_num = 0
   if (n1 > n2) {
-    let bigger_num = n1
-    let smaller_num = n2
+    bigger_num += n1
+    smaller_num += n2
   } else if (n2 > n1) {
-    let bigger_num = n2
-    let smaller_num = n1
+    bigger_num += n2
+    smaller_num += n1
   } else {
-    let bigger_num = n1
-    let smaller_num = n2
+    bigger_num += n1
+    smaller_num += n2
   }
   lcm += bigger_num
   while (lcm % smaller_num !== 0) {
-    lcm = lcm + bigger_num
+    lcm += bigger_num
   }
 
   document.getElementById("answer").innerHTML =
