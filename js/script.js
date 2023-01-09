@@ -32,7 +32,7 @@ function calculate() {
       bigger_num = bigger_num + bigger_num
       lcm = lcm + bigger_num
     }
-  }
+  
   document.getElementById("answer").innerHTML =
     "the lowest common multiple is:" + lcm + " ."
 }
