@@ -30,7 +30,7 @@ function calculate() {
   } else {
     let bigger_num = n1
     let smaller_num = n2
-  }  
+  }
   lcm += bigger_num
   while (lcm % smaller_num !== 0) {
     lcm += bigger_num
