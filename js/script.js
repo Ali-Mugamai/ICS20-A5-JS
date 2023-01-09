@@ -26,9 +26,9 @@ function calculate() {
     while (bigger_num % smaller_num !== 0) {
       lcm = lcm + bigger_num
     }
-  }   else if (n1 == n2) {
+  } else if (n1 == n2) {
     lcm = lcm + n1
-  }   else {
+  } else {
     let bigger_num = n2
     let smaller_num = n1
     while (bigger_num % smaller_num !== 0) {
