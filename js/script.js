@@ -28,11 +28,12 @@ function calculate() {
   } else if (n2 > n1) {
     let bigger_num = n2
     let smaller_num = n1
-  } while (bigger_num % smaller_num !== 0) {
-      bigger_num = bigger_num + bigger_num
-      lcm = bigger_num
-    }
-  
+  }
+  while (bigger_num % smaller_num !== 0) {
+    bigger_num = bigger_num + bigger_num
+    lcm = bigger_num
+  }
+
   document.getElementById("answer").innerHTML =
     "the lowest common multiple is:" + lcm + " ."
 }
