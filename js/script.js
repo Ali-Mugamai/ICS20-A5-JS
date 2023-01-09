@@ -19,11 +19,12 @@ if (navigator.serviceWorker) {
 
 function calculate() {
   // input
-  let i = lar;
-  while(i % small !== 0){
-    i += lar;
+  let i = lar
+  while (i % small !== 0) {
+    i += lar
   }
- gyugyguj
+  gyugyguj
   // output
-  document.getElementById("pay").innerHTML = "<p> the lowest common factor is: </p>" + lcm
+  document.getElementById("pay").innerHTML =
+    "<p> the lowest common factor is: </p>" + lcm
 }
