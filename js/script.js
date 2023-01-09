@@ -22,15 +22,15 @@ function calculate() {
   let bigger_num = 0
   let smaller_num = 0
   if (n1 > n2) {
-    bigger_num = n1
-    smaller_num = n2
-  } else if (n1 == n2) {
-    bigger_num = n1
-    smaller_num = n2
+    let bigger_num = n1
+    let smaller_num = n2
   } else if (n2 > n1) {
-    bigger_num = n2
-    smaller_num = n1
-  }
+    let bigger_num = n2
+    let smaller_num = n1
+  }else {
+    let bigger_num = n1
+    let smaller_num = n2
+  }  
   while (bigger_num % smaller_num !== 0) {
     bigger_num = bigger_num + n1
     lcm = bigger_num
