@@ -13,9 +13,7 @@ if (navigator.serviceWorker) {
     scope: "/ICS20-A5-JS/",
   })
 }
-/**
- * This function calculates area and perimeter of rectangle.
- */
+
 const n1 = parseInt(document.getElementById("num_1").value)
 const n2 = parseInt(document.getElementById("num_2").value)
 let lcm = 0
