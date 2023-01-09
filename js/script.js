@@ -33,7 +33,7 @@ function calculate() {
   }
   lcm += bigger_num
   while (lcm % smaller_num !== 0) {
-    lcm += bigger_num
+    lcm = lcm + bigger_num
   }
 
   document.getElementById("answer").innerHTML =
