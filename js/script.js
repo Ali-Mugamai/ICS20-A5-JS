@@ -21,20 +21,20 @@ const n2 = parseInt(document.getElementById("num_2").value)
 if (n1 > n2) {
   let bigger_num = n1
   let smaller_num = n2
-  while(bigger_num % smaller_num !== 0){
-    lcm += bigger_num;
+  while (bigger_num % smaller_num !== 0) {
+    lcm += bigger_num
   }
-} else if ( n1 == n2 ) {
+} else if (n1 == n2) {
   lcm = n1
-}
-else {
+} else {
   let bigger_num = n2
   let smaller_num = n1
-  while(bigger_num % smaller_num !== 0){
-    lcm += bigger_num;
+  while (bigger_num % smaller_num !== 0) {
+    lcm += bigger_num
   }
 }
 function calculate() {
   // output
-  document.getElementById("answer").innerHTML = "<p> the lowest common multiple is: </p>" + lcm
+  document.getElementById("answer").innerHTML =
+    "<p> the lowest common multiple is: </p>" + lcm
 }
