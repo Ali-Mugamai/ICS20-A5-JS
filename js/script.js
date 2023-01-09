@@ -27,10 +27,10 @@ function calculate() {
   } else if (n2 > n1) {
     let bigger_num = n2
     let smaller_num = n1
-  }else {
+  } else {
     let bigger_num = n1
     let smaller_num = n2
-  }  
+  }
   while (lcm % smaller_num !== 0) {
     lcm += bigger_num
   }
