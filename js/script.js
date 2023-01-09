@@ -31,9 +31,8 @@ function calculate() {
     let bigger_num = n1
     let smaller_num = n2
   }  
-  while (bigger_num % smaller_num !== 0) {
-    bigger_num = bigger_num + n1
-    lcm = bigger_num
+  while (lcm % smaller_num !== 0) {
+    lcm += bigger_num
   }
 
   document.getElementById("answer").innerHTML =
